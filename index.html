@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro Cultural Map</title>
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="description" content="">
+    <meta name="keywords" content=" ">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main" id="main">
+            <img src="media/logo.png" alt="">
+            <div class="buttons">
+                <a href="#main" class="back" style="text-decoration: none">Главная</a>
+                <a href="#map" class="back" style="text-decoration: none">Карта</a>
+            </div>
+        </div>
+        <div class="body">
+            <img src="media/pattern.png" alt="">
+            <div class="info">
+                <div class="title">
+                    <p class="text">К У Л Ь Т У Р Н А Я</p>
+                    <p class="text">К А Р Т А</p>
+                    <p class="text letter">М Е Т Р О</p>
+                </div>
+                <p class="description"> <img src="media/info-icon.png" alt="" class="instruction-info" instruction="<p class='instruction-title'>Инструкция:</p> <p class='instruction'>1. Нажать на заинтересовавшую станцию;</p> <p class='instruction'>2. Познакомиться с ее историей;</p> <p class='instruction'>3. Нажать на ссылку под названием «Культурные места»;</p> <p class='instruction'>4. В меню выбрать понравившуюся категорию, например, «Музеи»;</p> <p class='instruction'>5. Чтобы попасть на официальный сайт определенного музея, следует нажать на изображение;</p> <p class='instruction'>6. Иконка с А. С. Пушкином обозначает, что в этом месте действует Пушкинская карта;</p> <p class='instruction'>7. Чтобы вернуться на страницу «Меню», нужно нажать на кнопку «Меню» в углу;</p>"> Культурная карта метро - это интерактивная карта Московского метрополитена, с помощью которой пользователи могут познакомиться с историей определённой станции и узнать какие достопримечательности и культурные места находятся возле неё.</p>
+                <div class="instruction-block">
+
+                </div>
+            </div>
+            <img src="media/pattern.png" alt="">
+        </div>
+        <div class="map">
+            <svg viewBox="0 0 976 929" id="map">
+                <a href="#Novoslobodskaya" class="popup-link"><path class="station" d="m 317.99764,141.01602 c -4.14905,4.11277 -8.12039,10.68299 -7.0425,16.1025 0.95639,4.37113 6.88806,9.37486 11.10445,11.10445 -2.36335,8.57922 -0.673,17.60649 0.80701,24.26403 h 147.55287 l -1.14597,-22.23584 c -41.15726,0.14348 -29.57203, -5.65586 -123.47179,0.43043 -0.84579,-5.59703 0.36614,-11.19406 -3.42164,-16.79109 -0.45017,-5.02923 -5.71365,-9.94235 -9.39896, -13.0305 -5.93682,-4.18849 -10.29491,-1.27267 -14.98347,0.15602 z" description-data="<p class='short-title'>Новослободская</p> <img src='media/Novoslobodskaya.jpg'> <p class='short-description'>Станция является последней работой архитектора А.Н. Душкина и имеет статус выявленного объекта культурного наследия.</p>">
+                </path></a>
+                <a href="#Prospekt_Mira" class="popup-link"><path class="station" d="m 485.81711,163.41854 c 38.58938,6.11157 86.88746,4.27965 137.19087,0.80701 l 1.61401,-15.3331 c 4.62143,-3.29799 8.66294,-7.36921 10.08757,-14.92959 -0.48976,-5.84264 -0.6642,-11.82042 -8.47356,-14.5261 -5.73074,-1.91693 -11.45977,-3.82188 -16.1401,1.61401 -3.98832,2.91568 -8.47299,5.43429 -7.26305,12.50858 l 4.43853,11.29808 -124.27879,-1.21051 z" description-data="<p class='short-title'>Проспект Мира</p> <img src='media/Prospekt_Mira.jpg'> <p class='short-description'>Станция метро «Проспект Мира» изначально должна была носить название «Ботанический сад», однако сейчас оно принадлежит другой станции Калужско-Рижской линии.</p>">
+                </path></a>
+                <a href="#Komsomolskaya" class="popup-link"><path class="station" d="m 576.60519,254.20663 145.26093,-2.82452 h 48.42031 c 6.66462,-0.88757 10.65058,-5.34669 14.12259,-10.49107 0.35579,-7.30644 -1.97399,-13.2701 -8.07006,-17.35061 -6.62918,-5.05528 -12.60324,-4.21451 -18.15761,0.4035 -5.16498,4.03503 -9.05714,8.07005 -8.87706,12.10508 -35.03979,-5.23249 -117.28475,-1.61401 -175.92712,-2.42102 z" description-data="<p class='short-title'>Комсомольская</p> <img src='media/Komsomolskaya.jpg'> <p class='short-description'>Её ещё называют «парадные ворота» Москвы. Так как она встречает гостей столицы, прибывших на любой из трёх железнодорожных вокзалов.</p>">
+                </path></a>
+                <a href="#Kurskaya" class="popup-link"><path class="station" d="m 762.61988,428.92324 c 12.07875,1.00927 35.00516,0.60362 71.82346,-1.61401 5.99186,7.91434 10.77458,7.36464 15.7366,8.07005 5.98567,-2.15124 10.69061,-6.86395 14.52609,-13.31558 -0.95993,-7.38702 -2.90346,-14.21198 -11.29807,-17.35061 -7.92573,-1.55282 -13.85924,0.21475 -18.56112,4.03502 -17.2139,-1.95081 -48.58207,-0.36306 -73.43747,-0.4035 z" description-data="<p class='short-title'>Курская</p> <img src='media/Kurskaya.jpg'> <p class='short-description'>По сравнению с некоторыми другими станциями Кольцевой линии, «Курская» получилась более сдержанной. Здесь практически нет лепнины, мозаик или других ярких украшений.</p>">
+                </path></a>
+                <a href="#Taganskaya" class="popup-link"><path class="station" d="m 712.98906,604.44686 c 31.71152,2.1638 62.56401,0.89148 93.20909,-1.2105 -0.75977,7.03768 3.64211,11.49453 9.28056,15.3331 6.72504,0.92676 13.45009,0.24571 20.17513,-5.24554 1.6745,-7.86605 0.74105,-14.86278 -4.03502,-20.57863 -4.01574,-5.57241 -9.16549,-7.74274 -15.3331,-6.85954 -35.50823,-2.3223 -71.01645,-5.1378 -106.52468,-1.21051 z" description-data="<p class='short-title'>Таганская</p> <img src='media/Taganskaya.jpg'> <p class='short-description'>Архитекторам удалось создать станцию  непохожей на другие. Здесь не ощущается бесконечный простор, а наоборот, чувствуется некая камерность.</p>">
+                </path></a>
+                <a href="#Paveletskaya" class="popup-link"><path class="station" d="m 569.74564,733.56769 0.40351,20.98213 79.49,2.01752 c -13.87548,22.82027 -10.82268,24.75127 -6.85954,31.8767 5.65597,7.63881 13.20603,7.70128 20.98213,6.85955 6.71038,-5.24973 9.69871,-11.5629 8.87706,-18.96463 3.006,-6.05575 5.46044,-11.28417 1.21051,-13.71909 3.86076,-2.01302 4.87228,-4.26901 6.45604,-8.07005 l -3.22802,-18.15761 z" description-data="<p class='short-title'>Павелецкая</p> <img src='media/Paveletskaya.jpg'> <p class='short-description'>Пересадка с  Кольцевой линии на Замоскворецкую линию –  одна из длиннейших пересадок Московского метрополитена.</p>">
+                </path></a>
+                <a href="#Dobryninskaya" class="popup-link"><path class="station" d="m 549.16701,790.05805 c -43.31771,1.48149 -105.14599,7.31842 -129.92783,4.43853 0.33528,6.3608 5.18869,8.84892 -1.21051,20.98213 -7.93555,4.62254 -15.8711,3.67417 -23.80665,0.80701 -5.78915,-10.3923 -1.11219,-16.85981 1.21051,-24.21016 l 20.57863,-20.98213 c 11.23631,-9.8842 88.77057,-0.269 133.15585,-0.4035 z" description-data="<p class='short-title'>Добрынинская</p> <img src='media/Dobryninskaya.jpg'> <p class='short-description'>Данную станцию советские чиновники раскритиковали из-за незаметных украшений. Чтобы их разглядеть, нужно подойти, а у пассажиров метро нет на это времени.</p>">
+                </path></a>
+                <a href="#Oktyabrskaya" class="popup-link"><path class="station" d="m 404.30959,735.98871 c -36.58424,-0.4035 -76.62525,4.95429 -109.75271,-1.21051 -0.0913,10.32528 -4.77882,16.82045 -11.29807,21.78914 -11.79234,3.67048 -19.36887,-4.46334 -25.82416,-15.7366 6.0029,-10.71302 11.20125,-13.05502 18.56111,-15.3331 l 22.59615,-12.10508 c 36.33316,-5.08407 70.76576,1.23518 106.12118,2.01751 z" description-data="<p class='short-title'>Октябрьская</p> <img src='media/Oktyabrskaya.jpg'> <p class='short-description'>У станции «Октябрьская» есть сестра-близнец - это станция «Пушкинская» Питерского метрополитена. Она построена тем же архитектором, но есть одно отличие: в торце станции, в апсиде, располагается памятник Пушкину А.С.</p>">
+                </path></a>
+                <a href="#Park_Kultury" class="popup-link"><path class="station" d="m 344.5912,646.41113 c -44.51978,0.81867 -89.03957,5.5871 -133.55935,-0.4035 -3.40612,9.71683 -9.54529,13.05654 -16.1401,15.3331 -6.52901,-3.74315 -12.70177,-8.91131 -18.15762,-16.94711 4.99898,-7.83092 12.75823,-13.82165 24.21015,-17.35061 65.68464,-5.43774 95.63538,0.40892 142.83992,0.807 z" description-data="<p class='short-title'>Парк Культуры</p> <img src='media/Park_Kultury.jpg'> <p class='short-description'>Станцию построили всего за 11 месяцев люди, которые никогда раньше ничем подобным не занимались.</p>">
+                </path></a>
+                <a href="#Kievskaya" class="popup-link"><path class="station" d="m 252.18911,533.43041 c -28.18793,0.50781 -50.69798,5.43175 -87.56006,-0.807 -6.70513,8.15964 -15.39266,7.39852 -24.21015,6.05253 -7.39541,-7.80105 -4.30333,-15.6021 -4.84203,-23.40315 7.70236,-4.96776 16.37377,-6.05936 26.22766,-2.42101 l 90.78809,3.22802 z" description-data="<p class='short-title'>Киевская</p> <img src='media/Kievskaya.jpg'> <p class='short-description'>Эту станцию действительно строили киевляне. Она стала последней и замкнула кольцо коричневой ветки. Также, из-за своей схожести с картинной галереей, станция является объектом культурного наследия.</p>">
+                </path></a>
+                <a href="#Krasnopresnenskaya" class="popup-link"><path class="station" d="m 347.01222,403.50258 c -62.02084,-0.0844 -138.3435,4.59857 -183.19017,-1.21051 -6.8423,5.83526 -14.95029,7.87346 -25.01716,4.03503 -3.31103,-9.30231 -4.52997,-18.39541 2.82452,-26.63117 9.95868,-1.98578 18.68583,-1.098 25.42066,4.43853 59.58388,-5.79638 119.16776,-0.1037 178.75164,0.807 z" description-data="<p class='short-title'>Краснопресненская</p> <img src='media/Krasnopresnenskaya.jpg'> <p class='short-description'>Станция «Краснопресненская», наряду с «Киевской», завершила Кольцевую линию Московского метро в 1954 году.</p>">
+                </path></a>
+                <a href="#Belorusskaya" class="popup-link"><path class="station" d="m 190.45322,265.9082 c -5.54441,3.09352 -5.28884,6.18704 -5.64904,9.28056 0.46459,4.06968 -1.9406,8.61765 4.43853,11.70157 4.84203,4.65512 9.68406,1.86476 14.52609,1.61401 4.17894,0.43174 7.36848,-2.10472 10.49107, -4.84203 54.60271,9.86639 77.62256,1.96743 116.20874,2.82452 l 0.80701,-17.35061 -119.03326,-2.01751 c -1.77506,-5.46144 -6.30992, -5.40329 -10.08757,-6.85955 -5.23339,-0.33844 -9.67652,0.64023 -11.70157,5.64904 z" description-data="<p class='short-title'>Белорусская</p> <img src='media/Belorusskaya.jpg'> <p class='short-description'>Станция «Белорусская» рассказывает о советской жизни белорусского народа. Эти сюжеты можно заметить на мозаичных панно.</p>">
+                </path></a>
+            </svg>
+            <div class="description-station">
+                
+            </div>
+            <img src="media/map.png" alt="">
+        </div>
+    </div>
+    <div class="popup" id="Novoslobodskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Новослободская</div>
+                <div class="popup-info">
+                    <p class="popup-text"><span>Дата открытия:</span> 30.01.1952</p>
+                    <p class="popup-text"><span>Архитекторы:</span> А.Н. Душкин, А.Ф. Стрелков</p>
+                    <p class="popup-text"><span>Инженер-конструкторы:</span> Б.М. Прикот, А.И. Семёнов</p>
+                    <p class="popup-text"><span>Художники:</span> Э. Вейланд, Дж.Я. Бодниекс, Э. Крастс, Х. Рысин, П.Д. Корин</p>
+                    <p class="popup-text"><span>Конструкция:</span> пилонная трехсводчатая глубокого заложения</p>
+                    <p class="popup-text"><span>Глубина:</span> 40 метров</p>
+                    <p class="subtitle">История</p>
+                    <p class="popup-text">В XVI-XVII веках на территории Новой Дмитровской слободы вдоль дороги на Дмитров появилась новая улица, которой дали название «Новослободская». Современная станция метро «Новослободская» располагается в начале этой улицы и названа в ее честь.</p>
+                    <p class="popup-text">Станция «Новослободская» стала последней работой выдающегося архитектора А. Душкина, который принимал активное участие в строительстве Московского метрополитена. В этом проекте он работал в соавторстве с молодым коллегой Александром Стрелковым.</p>
+                    <p class="popup-text">Принцип строительства «Новослободской» такой же, как у станции «Добрынинская». Ее отличительная особенность – чередование больших и малых арочных пролетов. Разница заключается только в том, что образованные в теле пилонов ниши было решено закрыть витражами, за которыми установили светильники. </p>
+                    <p class="subtitle">Архитектура</p>
+                    <div class="img-right">
+                        <p class="popup-text">Станцию украшают 32 витража, выполненные по рисункам П. Корина, который делал эскизы мозаик для станции «Комсомольская». Каждый витраж вставлен в рамку из отчеканенной позолоченной латуни. Аналогичные латунные пояса располагаются над арочными проходами на перроны. В верхней части каждого витража находится медальон. а шести из них изображены люди некоторых профессий: архитектор, географ, художник, энергетик, музыкант и агроном. А на остальных изображены геометрические узоры и пятиконечные звёзды.</p>
+                        <img src="media/Novoslobodskaya1.jpg" alt="">
+                    </div>
+                    <p class="popup-text">В торце центрального зала расположено большое, во всю стену смальтовое панно «Мир во всём мире» работы П. Д. Корина. На панно изображена счастливая мать с ребёнком на руках. Женщина была похожа на жену архитектора станции Тамару Душкину.</p>
+                    <p class="img-center"><img src="media/Novoslobodskaya2.jpg" alt=""></p>
+                    <p class="popup-text">В 2003 году на станции реставрировали светильники, панно и витражи, после чего на станции стало светлее, что не соответствовало первоначальной задумке архитекторов, которые хотели создать некий загадочный грот.</p>
+                    <p class="popup-text">Цоколь пилонов обложен черным с белыми прожилками мрамором. Верх пилонов облицован прохоро-баландинским мрамором так же, как и путевые станы тоже отделаны мрамором. Пол станции напоминает шахматную доску из черного «габбро» и серого гранита.</p>
+                    <p class="a-place"><a href="" target="_blank">Куда <br>сходить?</a></p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Prospekt_Mira">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Проспект Мира</div>
+                <div class="popup-info">
+                    <p class="popup-text"><span>Дата открытия:</span> 30.01.1952</p>
+                    <p class="popup-text"><span>Архитектор: станции:</span> В.Г. Гельфрейх, М.А. Минкус; вестибюлей: А.Е. Аркин</p>
+                    <p class="popup-text"><span>Инженер-конструктор:</span> Б.М. Прикот</p>
+                    <p class="popup-text"><span>Скульптор:</span> Г.И. Мотовилов</p>
+                    <p class="popup-text"><span>Художник:</span> А.Н Кузнецов</p>
+                    <p class="popup-text"><span>Конструкция:</span> пилонная трехсводчатая глубокого заложения</p>
+                    <p class="popup-text"><span>Глубина:</span> 40 метров</p>
+                    <p class="subtitle">История</p>
+                    <p class="popup-text">Название станция метрополитена получила 20 июня 1966 в честь проспекта Мира, в котором она расположена. Но некогда «Проспект Мира» носила название «Ботанический сад» по той же причине.</p>
+                    <p class="popup-text">В 1958 году в западном торце станции сооружён переход на станцию «Проспект Мира» Калужско-Рижской линии. Наземный вестибюль встроен в многоэтажное жилое здание на проспекте Мира (архитектор А.Е. Аркин).</p>
+                    <p class="subtitle">Архитектура</p>
+                    <p class="popup-text">Тема оформления станции – «Сельское хозяйство СССР». Центральный зал станции декорирован фризом с растительным орнаментом и барельефами Г. И. Мотовилова, на которых автор старался изобразить гармонию человека и природы. Такой декор сделан, чтобы плавно направить жителей и туристов в «Ботанический сад» Всего на станции 16 барельефов. На них изображены садоводы; цветоводы; агрономы; юные натуралисты; школьники, собирающие плоды; девочка, помогающая посадить женщине цветок. Пол станции покрыт плитами серого янцевского гранита и черным «габро», образующими шахматный узор. Путевые стены облицованы темно-красным мрамором «нижний тагил». Станция освещается оригинальными бронзовыми светильниками, выполненными в виде снопа колосьев.</p>
+                    <p class="img-center"><img src="media/Prospekt Mira1.jpg" alt=""></p>
+                    <p class="popup-text">Наземный вестибюль: над входом висят часы, рядом с которыми барельефы колхозника и колхозница. Изначально в полукруглой нише около входа в вестибюль стояла скульптура "Изобилие". Её также создал Георгий Мотовилов. Но со временем скульптуру убрали. После реконструкции в 2016 ее вернули на место и назвали "Плодородием". Вот только это не оригинал, а копия. Над дверями металлические литые растительные орнаменты в которые вплетены серп и молот.</p>
+                    <p class="img-center"><img src="media/Prospekt Mira2.jpg" alt=""></p>
+                    <p class="popup-text">Особенность «Проспекта Мира» заключается не только в том, что фасад вестибюля украшен скульптурами и оригинальными часами, но и смальтовым панно «Матери мира» художника А.Н. Кузнецова. Изначально вместо него находился лепной барельеф с изображением И.В. Сталина, но в 1957 году украшение демонтировали. Панно А.Н Кузнецова изображает трёх женщин разных рас с детьми на фоне мировых достопримечательностей. Основная идея панно - дружба народов, вдохновлённая Фестивалем молодёжи и студентов 1957 года.</p>
+                    <p class="img-center"><img src="media/Prospekt Mira3.jpg" alt=""></p>
+                    <p class="a-place"><a href="" target="_blank">Куда <br>сходить?</a></p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Komsomolskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Комсомольская</div>
+                <div class="popup-info">
+                    <p class="popup-text"><span>Дата открытия:</span> 30.01.1952</p>
+                    <p class="popup-text"><span>Архитектор:</span> станции - А.В. Щусев, соавторы – А.Ю. Заболотная, О.А. Великорецкий; вестибюлей - А.В. Щусев, В.С. Варванин, О.А. Великорецкий</p>
+                    <p class="popup-text"><span>Инженер-конструктор:</span> А.И. Семёнов</p>
+                    <p class="popup-text"><span>Скульптор:</span> С. Казаков, А. Сергеев</p>
+                    <p class="popup-text"><span>Художник:</span> П.Д. Корин</p>
+                    <p class="popup-text"><span>Конструкция:</span> колонная трехсводчатая глубокого заложения</p>
+                    <p class="popup-text"><span>Глубина:</span> 37 метров</p>
+                    <p class="subtitle">История</p>
+                    <p class="popup-text">Название станция метрополитена получила благодаря тому, что она находится поблизости к Комсомольской площади, известной всем как «площадь трех вокзалов» - Ленинградского, Ярославского и Казанского. Также «Комсомольская» известна тем, что диаметр центрального зала станции стал самым широким из всех существующих, чему нетрудно догадаться. Впервые в метрополитене умещались сразу четыре эскалатора (раньше всегда размещались три).</p>
+                    <p class="popup-text">Станция задумывалась Щусевым как один из наиболее оживленных транспортных узлов города и как своеобразные ворота Москвы, задачей которых было бы формирование первого впечатления о столице. К сожалению, вскоре после составления эскиза станции "Комсомольская", он умер. Поэтому воплощать в жизнь идеи мастера продолжили его ученики: Виктор Кокорин и Алиса Заболотная.</p>
+                    <p class="popup-text">В 1958 году на Всемирной выставке в Брюсселе макет станции «Комсомольская» (кольцевая) получил Гран-при. Помимо высокой оценки архитектурной составляющей проекта члены жюри отметили его иллюстративную часть, которая была представлена мозаиками Павла Корина.</p>
+                    <p class="subtitle">Архитектура</p>
+                    <p class="popup-text">«Комсомольская» - очень торжественная станция. Она выполнена в стиле русского зодчества XVIII века и объединена одной патриотической темой – победа советского народа в ВОВ. Богатые декорации и грандиозный размер зала поражают туристов со всего мира.</p>
+                    <p class="popup-text">Павильон станции представляет собой большое двухэтажное здание крестовой формы с двумя шестиколонными портиками. Внутренний свод вестибюля выдаётся наружу большим куполом серого цвета. Увенчан этот купол высоким шпилем с пятиконечной звездой. На звезде изображены серп и молот.</p>
+                    <p class="img-center"><img src="media/Komsomolskaya1.jpg" alt=""></p>
+                    <p class="popup-text">Центральный зал: как и стены, колонны станции отделаны светлым мрамором, пол выложен красным гранитом. Потолки платформы украшают массивные люстры в виде колец, на которых расположены многочисленные рожки с лампами. Боковые залы станции освещаются подобными светильниками, чьи размеры, однако, значительно более скромные. Своды станции украшены лепниной в стиле барокко и огромными мозаичными панно из смальты и драгоценных камней, которые придумал художник Павел Корин.</p>
+                    <p class="img-center"><img src="media/Komsomolskaya2.jpg" alt=""></p>
+                    <p class="popup-text">На фоне всего этого великолепия кажется «забытым» торец станции. Чтобы скрасить пустоту, у стены установили высокий постамент, а на нем — бюст В.И. Ленина. На саму стену поместили мозаику, в центре которой — герб Советского Союза, а по краям — растительный орнамент.</p>
+                    <p class="img-center"><img src="media/Komsomolskaya3.jpg" alt=""></p>
+                    <p class="popup-text">Изюминкой залов станции являются мозаики, созданные художником П.Д. Кориным. В них запечатлено то, как вождь Сталин вспоминает о подвигах великих русских предков, дабы поднять боевой дух советских солдат. На мозаиках изображены такие личности, как Кузьма Минин и Дмитрий Пожарский, Александр Невский, Дмитрий Донской, Александр Суворов, Михаил Кутузов. Однако после развенчания культа Сталина, переделали все панно. На изменение всех панно ушло несколько лет. Работы проводились только по ночам, чтобы не мешать пассажирам полноценно пользоваться станцией.</p>
+                    <div class="img-row">
+                        <img src="media/Komsomolskaya4.jpg" alt="">
+                        <img src="media/Komsomolskaya5.jpg" alt="">
+                        <img src="media/Komsomolskaya6.jpg" alt="">
+                    </div>
+                    <p class="a-place"><a href="" target="_blank">Куда <br>сходить?</a></p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Kurskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Курская</div>
+                <div class="popup-info">
+                    <p class="popup-text"><span>Дата открытия:</span> 01.01.1950</p>
+                    <p class="popup-text"><span>Архитекторы:</span> Г.А. Захаров З.С. Чернышёва</p>
+                    <p class="popup-text"><span>Инженер-конструкторы:</span> Л.И. Горелик П.С. Сметанкин</p>
+                    <p class="popup-text"><span>Скульптор:</span> Н.В. Томский</p>
+                    <p class="popup-text"><span>Конструкция:</span> трехсводчатая колонная станция глубокого заложения</p>
+                    <p class="popup-text"><span>Глубина:</span> 40 метров</p>
+                    <p class="subtitle">История</p>
+                    <p class="popup-text">Название станции метро связано с расположенным неподалеку Курским вокзалом.</p>
+                    <p class="popup-text">Строительство шло в большой спешке, так как кольцевая линия планировалась, как архитектурный памятник Победе СССР в Великой Отечественной войне. Из-за этого у всех станций первого участка "Кольцевой линии" только один наземный вестибюль. Вторые делать не стали, чтобы сэкономить время. Строительство вели закрытым способом с помощью тоннелепроходческого щита. Ведь станция находится на большой глубине.</p>
+                    <p class="popup-text">Также архитекторы хотели органично вписать наземный вестибюль рядом со старой железнодорожной станции. и они справились с этой задаче, но теперь, после реконструкции вокзала 1970-х, это два абсолютно разных по стилю объекта, которые смотрятся негармонично.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Taganskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Таганская</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Paveletskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Павелецкая</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Dobryninskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Добрынинская</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Oktyabrskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Октябрьская</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Park_Kultury">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Парк Культуры</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Kievskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Киевская</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Krasnopresnenskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Краснопресненская</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <div class="popup" id="Belorusskaya">
+        <div class="popup-body">
+            <div class="popup-content">
+                <a href="#main" class="popup-close close-popup"><img src="media/close-icon.png" alt=""></a>
+                <div class="popup-title">Белорусская</div>
+                <div class="popup-info">
+                    <p class="popup-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe tempora, obcaecati cupiditate sapiente hic eum. Enim vitae aliquid voluptate nisi perferendis dicta doloremque repellat a. Sapiente praesentium voluptate harum, maxime quis eius qui, omnis excepturi quae ullam rerum possimus. Voluptatum, itaque. Vero dolore harum illum fuga numquam. Vero officia ipsum corporis saepe nostrum corrupti, voluptatum esse ratione magnam quisquam eveniet voluptas rem cupiditate suscipit incidunt. Excepturi pariatur maiores adipisci, tempore veniam vero velit delectus? Fugiat maxime magnam odit ut quod. Recusandae dicta quam facere harum provident accusantium beatae, eveniet itaque est necessitatibus mollitia quod consequuntur odit, dolores tenetur exercitationem aspernatur, sequi earum. Saepe rem pariatur molestias beatae reprehenderit delectus incidunt exercitationem optio dolorem, ab, similique distinctio numquam enim quisquam perferendis harum asperiores doloremque culpa quidem, modi provident. Adipisci corporis laborum suscipit ipsam odio, laboriosam in illum. Corrupti eius consequuntur aliquam fugiat mollitia hic necessitatibus accusantium officiis quo provident rem recusandae voluptates, ea iure cum quis quidem! Optio corrupti magni quidem, provident tempora, expedita dolorem ipsa ratione, voluptas unde libero voluptatum vitae possimus fugiat eius quis! Ipsum alias eos asperiores, repudiandae ex voluptas earum officiis possimus soluta iusto nobis error, illo vitae excepturi impedit odit atque odio corporis hic quam qui quaerat corrupti? Cum itaque magnam quod atque odio laboriosam distinctio exercitationem! Labore voluptates maiores, eligendi dicta velit repellat fugit asperiores soluta voluptas sequi a blanditiis quis! Nisi quis voluptatum temporibus? Praesentium, aliquid doloremque ratione non voluptatum harum facilis dolor enim, ad repellat quis quae tempore porro impedit cum optio? Harum vel excepturi, fuga dolorem animi laborum quam inventore minima distinctio, aspernatur possimus quo! Aut quis neque, reiciendis ex, eum nobis deserunt animi labore est dolorum perferendis. Doloribus aut, accusamus quos maxime sapiente enim rem cum. A sint iste quasi ratione delectus similique maxime neque id minus asperiores totam consequatur maiores consequuntur possimus, enim suscipit? Inventore perferendis temporibus voluptate adipisci, nostrum voluptatum natus nobis, commodi dolorem recusandae quasi magni sit, iste culpa quis dolor dignissimos blanditiis distinctio itaque quibusdam illo similique maiores? At fugit quae quis dicta totam impedit cum rem unde molestiae odit, ipsum voluptatibus deleniti. Voluptas ab ipsa inventore, reiciendis facilis ducimus soluta voluptate nulla ut ea esse. Consequuntur itaque quas accusantium, adipisci, placeat minima nostrum in vero eum eaque voluptate explicabo quis quo molestiae repellat cumque dolor, omnis accusamus veritatis nobis architecto labore? Cumque, cupiditate adipisci. Quisquam inventore dicta magnam tenetur illo optio voluptatibus pariatur laudantium voluptate maxime.</p>
+                </div>
+                <div class="popup-logo"><img src="media/popup-logo.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--[if lt IE 9]>
+    <script src="libs/html5shiv/es5-shim.min.js"></script>
+    <script src="libs/html5shiv/html5shiv.min.js"></script>
+    <script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+    <script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="script/main.js"></script>
+</body>
+</html>
