@@ -321,15 +321,21 @@ svg{
 
 .popup-content .popup-info .a-place{
     position: absolute;
-    right: 50px;
+    right: 125px;
     top: 200px;
     border: 3px solid #ad221f;
-    padding-left: 14px;
 }
 
-.popup-content .popup-info .a-place a{
-    text-align: center;
-    margin: 10px;
+.popup-content .popup-info .a-place .a-flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popup-content .popup-info .a-place .a-flex .a-text{
+    font-size: 30px;
+    margin: 0px 10px;
+    text-align: left;
 }
 
 .popup-content .popup-info .popup-text{
