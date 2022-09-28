@@ -18,6 +18,16 @@ $('.instruction-info').hover (
 	}
 );
 
+$('.tg-link').hover (
+	function() {
+		$('.tg-block').html($(this).attr('tg'));
+		$('.tg-block').fadeIn();
+	},
+	function() {
+		$('.tg-block').fadeOut(50);
+	}
+);
+
 
 const popupLinks = document.querySelectorAll('.popup-link');
 const body = document.querySelector('body');
