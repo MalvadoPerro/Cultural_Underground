@@ -173,7 +173,7 @@ svg{
 
 .map .station{
     fill: #ad221f;
-    opacity: 0.3;
+    opacity: 0;
 }
 
 .map .station:hover{
