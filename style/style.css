@@ -94,7 +94,7 @@ body.lock{
 }
 
 .body .info .title .text{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     padding: 5px 10px;
     margin: 0;
@@ -106,7 +106,33 @@ body.lock{
     color: #ad221f;
 }
 
-.body .info .description{
+.body-2{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.body-2 img{
+    margin-top: 0px;
+    width: 75px;
+    height: 200%;
+}
+
+.body-2 .info-2{
+    margin-top: 0px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.body-2 .info-2 .description{
     font-size: 21px;
     margin-top: 20px;
     width: 70%;
@@ -117,12 +143,12 @@ body.lock{
     border: 3px solid #ad221f;
 }
 
-.body .info .description img{
+.body-2 .info-2 .description img{
     height: 21px;
     width: auto;
 }
 
-.body .info .instruction-block{
+.body-2 .info-2 .instruction-block{
     display: none;
     position: absolute;
     box-sizing: border-box;
@@ -131,13 +157,13 @@ body.lock{
     width: 290px;
     height: auto;
     padding: 5px;
-    top: 27%;
+    top: 0;
     left: 25%;
     box-shadow: 0 0 32px 5px #ccc;
     color: #000;
 }
 
-.body .info .instruction-block .instruction-title{
+.body-2 .info-2 .instruction-block .instruction-title{
     font-size: 28px;
     font-weight: bold;
     top: 0;
@@ -146,14 +172,14 @@ body.lock{
     text-align: center;
 }
 
-.body .info .instruction-block .instruction{
+.body-2 .info-2 .instruction-block .instruction{
     font-size: 17px;
     margin: 0;
     text-align: left;
     margin: 0 15px;
 }
 
-.body .info .instruction-block .instruction::first-letter{
+.body-2 .info-2 .instruction-block .instruction::first-letter{
     font-weight: bold;
 }
 
