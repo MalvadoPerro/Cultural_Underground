@@ -187,12 +187,26 @@ body.lock{
     margin-top: 50px;
     text-align: center;
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
 }
 
-svg{
+.map img{
+    width: 100%;
+    height: 100%;
+}
+
+.map svg{
     position: absolute;
     top: 0;
+    margin-left: auto;
+    margin-right: auto;
     left: 0;
+    right: 0;
     width: 100%;
     height: 100%;
 }
@@ -279,6 +293,25 @@ svg{
 .contacts .contacts-content .contact-content img{
     height: 30px;
     width: auto;
+}
+
+.contacts .contacts-content .rut-block{
+    position: absolute;
+    box-sizing: border-box;
+    z-index: 2;
+    background-color: #fff;
+    height: 30px;
+    width: auto;
+    bottom: 20%;
+    left: 100%;
+    padding: 0;
+}
+
+.contacts .contacts-content .rut-block .contact-rut-link{
+    font-size: 20px;
+    color: #000;
+    top: 0;
+    margin: 0 5px 5px 5px;
 }
 
 .contacts .contacts-content .tg-block{
@@ -406,7 +439,17 @@ svg{
     position: absolute;
     right: 125px;
     top: 220px;
-    border: 3px solid #ad221f;
+    border: 3px solid #603b14;
+    color: #603b14;
+    border-radius: 25px;
+    background-color: #fff;
+    transition: all 0.5s ease 0s;
+}
+
+.popup-content .popup-info .a-place:hover{
+    background-color: #603b14;
+    color: #fff;
+    cursor: pointer;
 }
 
 .popup-content .popup-info .a-place .a-flex{
@@ -452,11 +495,157 @@ svg{
 
 .popup-content .popup-logo{
     position: absolute;
-    right: 10px;
-    bottom: 10px;
+    right: 5px;
+    bottom: 5px;
 }
 
 .popup-content .popup-logo img{
     height: 70px;
     width: auto;
+}
+
+.popup-content .pp{
+    margin: -31px;
+}
+
+.popup-content .pp img{
+    width: 1000px;
+    height: auto;
+    position: relative;
+}
+
+.popup-content .pp .pp-title{
+    font-size: 60px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 280px;
+}
+
+.popup-content .pp .pp-subtitle{
+    font-size: 40px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 390px;
+}
+
+.popup-content .pp .pp-menu{
+    font-size: 50px;
+    color: #603b14;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.popup-content .pp .pp-menu-row{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 0;
+    justify-content: space-evenly;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    position: relative;
+    padding: 0;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column img{
+    width: 300px;
+    height: auto;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column .pp-menu-museum{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column .pp-menu-temples{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 320px;
+    left: 75px;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column .pp-menu-theatres{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 70px;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column .pp-menu-parks{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 320px;
+    left: 80px;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column .pp-menu-monuments{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.popup-content .pp .pp-menu-row .pp-menu-column .pp-menu-different{
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    top: 320px;
+    left: 75px;
+}
+
+.popup-content .pp-conts-row{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+    padding: 0;
+    justify-content: space-evenly;
+    
+}
+
+.popup-content .pp-conts-row img{
+    width: 400px;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.popup-content .pp-conts-row .cont-text{
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+    color: #603b14;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.popup-content .pp-conts-row .cont-text img{
+    height: 40px;
+    width: auto;
+}
+
+.popup-content .pp-conts-row .cont-text span{
+    font-size: 25px;
 }

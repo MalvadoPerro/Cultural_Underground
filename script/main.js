@@ -18,6 +18,16 @@ $('.instruction-info').hover (
 	}
 );
 
+$('.rut-link').hover (
+	function() {
+		$('.rut-block').html($(this).attr('rut'));
+		$('.rut-block').fadeIn();
+	},
+	function() {
+		$('.rut-block').fadeOut(50);
+	}
+);
+
 $('.tg-link').hover (
 	function() {
 		$('.tg-block').html($(this).attr('tg'));
